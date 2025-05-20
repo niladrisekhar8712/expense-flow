@@ -8,7 +8,7 @@ const port = process.env.PORT || 3001;
 
 app.use(express.json());
 app.use(cors({
-  origin: 'https://expense-flow-fawn.vercel.app/',
+  origin: 'https://expense-flow-fawn.vercel.app',
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true
 }));

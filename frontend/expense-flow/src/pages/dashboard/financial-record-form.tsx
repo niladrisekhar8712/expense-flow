@@ -1,5 +1,5 @@
 import { useUser } from "@clerk/clerk-react";
-import { FormEvent, useContext, useState } from "react";
+import { useState } from "react";
 import "./financial-record.css";
 import { useFinancialRecoreds } from "../../context/financial-record-context";
 export const FinancialRecordForm = () => {

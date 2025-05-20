@@ -1,6 +1,6 @@
 import { useUser } from "@clerk/clerk-react";
 import { createContext, useContext, useEffect, useState } from "react";
-const apiEndpoint = "http://localhost:3001/financial-records";
+const apiEndpoint = "https://expense-flow-v1.vercel.app/financial-records";
 export interface FinancialRecord {
     _id?: string;
     userId: string;
